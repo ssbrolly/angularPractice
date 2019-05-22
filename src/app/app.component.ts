@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularPractice';
+
+  public myData: string = 'hello bitches';
+
+  constructor() {
+  }
+
+  whatever(event) {
+    console.log(event, event.keyCode);
+  }
 }
